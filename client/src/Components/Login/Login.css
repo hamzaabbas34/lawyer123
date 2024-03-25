@@ -1,0 +1,162 @@
+.loginmain {
+    display: flex;
+    height: 70vh;
+}
+
+.loginleft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginleft img {
+    width: 60%;
+    height: 55vh;
+}
+
+.loginright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginform {
+    width: 50%;
+    height: 54vh;
+    border-radius: 16.658px;
+    border: 1.19px solid #A0A0A0;
+    background: #FFF;
+    padding: 15px 20px !important;
+    position: relative;
+}
+
+.loginform div:nth-child(1) {
+    color: #000;
+  font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.loginform span:nth-of-type(1) {
+    color: #AA9166;
+}
+
+.loginform div:nth-child(2) {
+  font-family: 'Quicksand', sans-serif;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 10px !important;
+}
+
+.loginform label {
+    color: black;
+  font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 3px !important;
+}
+
+.loginform input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px !important;
+    border-radius: 7.139px;
+    border: 1.19px solid #A0A0A0;
+    background: #FFF;
+    text-indent: 10px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.loginform svg {
+    position: absolute;
+    top: 52%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.loginform input::placeholder {
+    font-size: 14px;
+    color: black;
+}
+
+.loginform div:nth-of-type(3) {
+    padding: 10px 0px !important;
+    text-align: right;
+    color: #AA9166;
+  font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.loginform div:nth-of-type(3) a {
+    color: #AA9166;
+    text-decoration: none;
+}
+
+.loginform button {
+    width: 100%;
+    border-radius: 3.57px;
+    background: #AA9166;
+    color: white;
+    border: none;
+    height: 35px;
+    font-weight: 600;
+}
+
+.loginform div:nth-of-type(4) {
+    padding-top: 20px !important;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.loginform span:nth-of-type(2) {
+    cursor: pointer;
+}
+
+.loginform div:nth-of-type(4) span a {
+    cursor: pointer;
+    color: #AA9166;
+    text-decoration: none;
+}
+
+@media(max-width:1024px) {
+    .loginmain {
+        display: flex;
+        height: 76vh;
+    }
+
+    .loginform {
+        width: 57%;
+        height: 72vh;
+    }
+}
+
+@media(max-width:768px) {
+    .loginform {
+        width: 70%;
+        height: 72vh;
+    }
+
+    .loginform svg {
+        position: absolute;
+        top: 54.5%;
+        right: 10%;
+        cursor: pointer;
+    }
+}
+
+@media(max-width:430px) {
+    .loginleft {
+        display: none;
+    }
+
+}

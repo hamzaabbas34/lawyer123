@@ -1,0 +1,109 @@
+.conntactmain{
+    font-family: 'Quicksand', sans-serif;
+}
+.conttop{
+display: flex;
+height: 70vh;
+}
+.topleft{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contform{
+    border-radius: 16.658px;
+    border: 1.19px solid #A0A0A0;
+    background: #FFF;
+    width: 60%;
+    height: 65vh;
+    padding: 10px !important;
+}
+
+.contform div:nth-child(1){
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 15px !important;
+}
+.contform label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.contform input{
+    width: 100%;
+    height: 35px;
+margin-bottom: 5px !important;
+border-radius: 7.139px;
+border: 1.19px solid #A0A0A0;
+background: #FFF;
+text-indent: 10px;
+outline: none;
+font-size: 14px;
+font-weight: 450;
+}
+.contform textarea{
+    width: 100%;
+    outline: none;
+    text-indent: 10px;
+}
+.topright{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topright img{
+width: 70%;
+height: 60vh;
+}
+.contbutton{
+margin: auto !important;
+width: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+border-radius: 7.576px;
+background: #AA9166;
+color: white;
+margin-top: 10px !important;
+cursor: pointer;
+}
+.maproute{
+width: 90%;
+height: 60vh;
+/* background-color: red; */
+margin: auto !important;
+padding: 10px 0px !important;
+}
+
+@media(max-width:1024px){
+    .conttop {
+        display: flex;
+        height: 83vh;
+    }
+    .contform {
+        width: 60%;
+    height: 73vh;
+    padding: 10px !important;
+    }
+    .maproute {
+        width: 90%;
+        height: 74vh;
+    }
+}
+
+@media(max-width:768px){
+    .contform {
+        width: 80%;
+    height: 73vh;
+    padding: 10px !important;
+    }
+
+}
+
+@media(max-width:430px){
+.topright{
+    display: none;
+}
+}

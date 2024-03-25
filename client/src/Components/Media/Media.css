@@ -1,0 +1,26 @@
+
+
+.commingsoondiv{
+    background-image: url('../../Assets/Img/comingsoon.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.commingsoondiv h2{
+    color: #fff;
+    font-family: Quicksand;
+    padding-top: 4rem !important;
+}
+
+.commingsoondiv p{
+    color: #fff;
+    font-family: Quicksand;
+    padding-top: 1rem !important;
+}
+
+.commingsoondiv img{
+    width: 500px;
+    padding-top: 5rem !important;
+}

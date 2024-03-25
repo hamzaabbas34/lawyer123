@@ -1,0 +1,33 @@
+.blogdiv {
+    padding-inline: 1rem !important;
+    padding-top: 2rem !important;
+    margin-block: 2rem !important;
+    width: 70%;
+    border-radius: 20.739px;
+    border: 1.092px solid #A0A0A0;
+    background: #FFF;
+}
+
+.blogdiv h2 {
+    font-family: Quicksand;
+    font-family: 700;
+    padding-block: 1rem !important;
+}
+
+.blogdiv h6 {
+    font-family: Quicksand;
+    font-family: 700;
+    padding-block: 1rem !important;
+}
+
+.blogdiv p {
+    color: #666;
+    font-weight: 500;
+    font-family: Quicksand;
+}
+
+.blogdiv a {
+    color: #FDBE6D;
+
+    font-family: Quicksand;
+}

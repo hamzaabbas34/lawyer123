@@ -1,0 +1,267 @@
+.landingpage2div {
+    background-image: url('../../Assets/Img/landingpage2bg.svg');
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+.landingpage2content {
+    text-align: center;
+    padding-top: 2rem !important;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+
+
+}
+
+.landingpage2content h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.landingpage2content p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #fff;
+    padding-bottom: 1rem !important;
+}
+
+.landingpagepopup {
+    opacity: 0.9;
+    background-color: #d1cfce;
+    width: 600px;
+    height: 450px;
+    margin: 0 auto !important;
+    border-radius: 15px;
+    padding-block: 1.5rem !important;
+}
+
+.landingpagepopup h4 {
+    color: var(--lightbrown);
+    text-align: center;
+}
+
+
+.landingpagepopup textarea {
+    margin-block: 1rem !important;
+    border: none;
+    width: 90%;
+    margin-inline: 0rem !important;
+    outline: none;
+    border-radius: 8px;
+    padding-inline: 1rem !important;
+    padding-block: 1rem !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+}
+
+
+.landingpagepopup select {
+    width: 90%;
+    margin-inline: 0rem !important;
+    outline: none;
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+    cursor: pointer;
+}
+
+
+.landingpagepopup {
+    text-align: left !important;
+    padding-inline: 2rem !important;
+    padding-top: 2rem !important;
+
+}
+
+#spanlandingpage2 {
+    color: black;
+    padding-top: 1rem !important;
+    font-size: 1rem;
+}
+
+.checkboxandinput {
+    color: black;
+    padding-top: 1rem !important;
+    font-size: 1rem;
+}
+
+.checkboxandinput span {
+    margin-left: 1rem !important;
+}
+
+
+#landingpage2btn {
+    width: 100%;
+    border-radius: 3.57px;
+    background: #AA9166;
+    color: white;
+    border: none;
+    height: 35px;
+    font-weight: 600;
+    margin-top: 1rem !important;
+}
+
+
+.howdoesitworkdiv {
+    text-align: center;
+    padding-block: 2rem !important;
+}
+
+.howdoesitworkdiv h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem !important;
+}
+
+.howdoesitworkdiv p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto !important;
+    padding-top: 1rem !important;
+}
+
+.howdoesmaindiv {
+    margin-inline: 4rem !important;
+    display: flex;
+    justify-content: center;
+
+}
+
+#howdoespic {
+    width: 300px;
+}
+
+#cartoonpic {
+    width: 300px;
+    margin-left: 10rem !important;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+
+.cardivmain {
+    text-align: center;
+    padding-top: 5rem !important;
+}
+
+.cardivmain h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1rem !important;
+}
+
+.cardivmain p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+    padding-top: 1rem;
+}
+
+.cardivmain button {
+    width: 40%;
+    border-radius: 3.57px;
+    background: #AA9166;
+    color: white;
+    border: none;
+    height: 35px;
+    font-weight: 600;
+    margin-top: 1rem !important;
+}
+
+
+.servicesmaindiv {
+    text-align: center;
+
+}
+
+.servicesmaindiv h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem !important;
+}
+
+.servicesmaindiv p {
+    width: 40%;
+    margin: 0 auto !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+    padding-top: 1rem !important;
+}
+
+.workpicmaindivishere {
+    text-align: center;
+}
+
+.workpicmaindivishere {
+    background-color: #FFF8F0;
+    padding: 1rem !important;
+
+}
+
+.workpicmaindivishere img {
+    width: 60px;
+    padding-top: 1rem !important;
+}
+
+.wakeelsmaindiv {
+    text-align: center;
+    padding-top: 2rem !important;
+}
+
+.wakeelsmaindiv h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 2rem !important;
+}
+
+.wakeelsmaindiv p {
+    margin: 0 auto !important;
+    width: 40%;
+    padding-top: 1rem !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1rem !important;
+}
+
+
+
+#girlmainpic {
+    width: 170px;
+}
+
+.girmani {
+    width: 100px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: 16rem !important;
+    text-align: center;
+    display: none;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10;
+}
+
+.videodiv {
+    margin-top: 2rem !important;
+}
+
+.textpic {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto !important;
+}

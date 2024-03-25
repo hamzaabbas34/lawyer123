@@ -1,0 +1,153 @@
+.registermain {
+    display: flex;
+    height: 80vh;
+}
+
+.registerleft {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerleft img {
+    width: 50%;
+    height: 50vh;
+}
+
+.registerright {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerform {
+    padding: 20px !important;
+    width: 75%;
+    height: 68vh;
+    border-radius: 30px;
+    border: 1px solid #A0A0A0;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.registerform .wakeelr {
+    color: #AA9166;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 20px !important;
+}
+
+.registerform .wakeelr span {
+    color: black;
+}
+
+.fordis {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.fordis svg {
+    position: absolute;
+    top: 60%;
+    right: 3%;
+}
+
+.fordis div:nth-child(1),
+.fordis div:nth-child(2) {
+    width: 50%;
+}
+
+.fordis label {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 5px !important;
+    font-family: Quicksand;
+    color: black;
+}
+
+.fordis input {
+    width: 100%;
+    height: 37px;
+    border-radius: 7.139px;
+    border: 1.19px solid #A0A0A0;
+    background: #FFF;
+    outline: none;
+    text-indent: 10px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.privacypolicy {
+    font-family: Quicksand;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button button {
+    border-radius: 3.57px;
+    background: #AA9166;
+    width: 80%;
+    height: 35px;
+    border: none;
+    color: #FFF;
+font-family: Quicksand;
+font-weight: 600;
+}
+
+.already {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Quicksand;
+
+}
+
+.already span a {
+    color: #AA9166;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media(max-width:1024px) {
+    .registermain {
+        height: 91vh;
+    }
+
+    .registerform {
+        /* padding: 16px !important; */
+        width: 82%;
+        height: 87vh;
+    }
+}
+
+@media(max-width:768px) {
+    .registerform {
+        width: 97%;
+    }
+}
+
+@media(max-width:430px) {
+    .registerleft {
+        display: none;
+    }
+
+}

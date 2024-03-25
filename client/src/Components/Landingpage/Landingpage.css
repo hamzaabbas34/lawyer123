@@ -1,0 +1,577 @@
+.law1 {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.law2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.law3 {
+    width: 100%;
+    height: 100vh;
+}
+
+/* landing page first three pics  */
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 15rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h3 {
+    font-family: "EBGaramond-Medium";
+    font-size: 60px;
+    font-style: italic;
+}
+
+.carousel-caption p {
+    font-family: 'Quicksand', sans-serif;
+    padding-block: 1rem !important;
+}
+
+.carousel-caption button {
+    padding: 10px 40px !important;
+    background-color: var(--lightblack);
+    color: var(--lightbrown);
+    border: 1px solid var(--lightbrown);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 1rem !important;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 180px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    gap: 10px;
+}
+
+/* landingpagesecsection is start */
+
+.landingpagesecsection {
+    background-color: var(--lightblack) !important;
+    padding: 3rem !important;
+}
+
+.legalpicdiv img {
+    width: 30px;
+    height: 30px;
+}
+
+/* pic div on fst screen */
+
+.legalpicdiv {
+    text-align: center;
+}
+
+.legalpicdiv h3 {
+    color: #fff;
+    font-family: "EBGaramond-Medium";
+    padding-block: 0.2rem !important;
+
+}
+
+.legalpicdiv p {
+    color: rgba(239, 239, 239, 0.47);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.peoplepicdiv {
+    text-align: center;
+}
+
+.peoplepicdiv img {
+    width: 30px;
+    height: 30px;
+}
+
+.peoplepicdiv h3 {
+    color: #fff;
+    font-family: "EBGaramond-Medium";
+    padding-block: 0.2rem !important;
+
+}
+
+.peoplepicdiv p {
+    color: rgba(239, 239, 239, 0.47);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sucesspicdiv {
+    text-align: center;
+}
+
+.sucesspicdiv img {
+    width: 30px;
+    height: 30px;
+}
+
+.sucesspicdiv h3 {
+    color: #fff;
+    font-family: "EBGaramond-Medium";
+    padding-block: 0.2rem !important;
+
+}
+
+.sucesspicdiv p {
+    color: rgba(239, 239, 239, 0.47);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.supportpicdiv {
+    text-align: center;
+}
+
+.supportpicdiv img {
+    width: 30px;
+    height: 30px;
+}
+
+.supportpicdiv h3 {
+    color: #fff;
+    font-family: "EBGaramond-Medium";
+    padding-block: 0.2rem !important;
+
+}
+
+.supportpicdiv p {
+    color: rgba(239, 239, 239, 0.47);
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* about section is start */
+
+
+.aboutpicdiv {
+    text-align: center;
+    padding-inline: 2rem !important;
+    padding-top: 2rem !important;
+}
+
+.aboutpicdiv img {
+    height: 380px;
+    width: 380px;
+
+}
+
+.aboutlinepic {
+    text-align: center;
+    padding-top: 3.5rem !important;
+    padding-inline: 5rem !important;
+
+}
+
+.aboutlinepic img {
+    height: 100px;
+    object-fit: cover;
+    width: 700px;
+
+}
+
+
+.aboutlinepic p {
+    text-align: left;
+    padding-top: 1rem !important;
+    font-family: 'Quicksand', sans-serif;
+    color: #747474;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.aboutlinepic button {
+    text-align: left;
+    display: flex;
+    padding: 10px 40px !important;
+    background-color: var(--lightblack);
+    color: var(--lightbrown);
+    border: 1px solid var(--lightbrown);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5rem !important;
+}
+
+/* about section is End */
+
+
+/* practiceareadiv is start */
+
+.line2div {
+    text-align: center;
+    padding-block: 5rem !important;
+}
+
+
+.practiceareadiv {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding-top: 2rem !important;
+    margin-inline: 2rem !important;
+    margin-block: 2rem !important;
+}
+
+.practicetext {
+    background-color: var(--lightblack);
+    padding-bottom: 3rem !important;
+    border-radius: 1rem;
+}
+
+.practicetext h1 {
+    font-family: "EBGaramond-Medium";
+    color: var(--lightbrown);
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 2rem !important;
+    padding-top: 2rem !important;
+}
+
+.practicetext p {
+    font-family: 'Quicksand', sans-serif;
+    color: #7A7B7D;
+    font-size: 14px;
+    padding-block: 1rem !important;
+    padding-inline: 1rem !important;
+}
+
+.practicetext button {
+    border: 1px solid var(--lightbrown);
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: var(--lightbrown);
+    padding: 0.4rem 1.4rem !important;
+}
+
+.home3 {
+    height: 55px !important;
+}
+
+/* practiceareadiv is End */
+
+
+
+/* why choose is start */
+
+.line3div {
+    text-align: center;
+    padding-block: 3rem !important;
+}
+
+.choosediv {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-left: 5rem !important;
+    margin-block: 1rem !important;
+}
+
+.bgchoose {
+    padding: 2rem !important;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.choosetext h1 {
+    font-family: EB Garamond;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+}
+
+.choosetext p {
+    color: #747474;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+.chooseimgdiv img {
+    background: #121518;
+    border-radius: 8px;
+    padding: 0.7rem !important;
+    height: 60px;
+}
+
+.tolpic img {
+    height: 350px;
+    width: 400px;
+}
+
+
+/* meeting section is start */
+
+/* .mandiv{
+    border: 1px solid red;
+    position: relative;
+} */
+
+.mandiv {
+    text-align: center;
+}
+
+.mandiv img {
+
+    height: 354px;
+    width: 253px;
+}
+
+/* .iconandbg{
+    background-color: black;
+} */
+
+.iconsdivmeet {
+    background-color: var(--lightbrown);
+    display: flex;
+    padding: 1rem !important;
+    margin-inline: 2rem !important;
+    border-radius: 8px;
+    margin-top: -0.7rem !important;
+
+}
+
+.iconsdivmeet img {
+    height: 18px;
+}
+
+.mandiv h3 {
+    color: var(--lightbrown);
+    font-family: EB Garamond;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
+
+.mandiv p {
+    color: #747474;
+
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* meeting section is end */
+
+
+/* have a question is staart */
+
+.tolpic {
+    text-align: center;
+}
+
+.tolpic2 img {
+    height: 417px;
+    width: 456px;
+    text-align: center;
+}
+
+.accordion-item:first-of-type .accordion-button {
+    border: none !important;
+    padding: 1rem !important;
+    color: #282828;
+
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.accordinddivheading {
+    background-color: black;
+    border: none !important;
+    color: var(--lightbrown);
+    padding: 0.1rem 0.8rem !important;
+    margin-right: 1rem !important;
+}
+
+
+.accordion-button {
+    padding: 1rem !important;
+    color: #282828;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    background-color: transparent;
+    border: none !important;
+}
+
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    border: none !important;
+    outline: none !important;
+    padding: 0.5rem !important;
+}
+
+
+.accordion-body {
+    font-size: 14px;
+    color: #747474;
+    font-weight: 500;
+    font-family: Quicksand;
+    padding-top: 1rem !important;
+}
+
+
+.askmorebutton {
+    text-align: center;
+    margin-block: 2rem !important;
+}
+
+
+.askmorebutton button {
+    background-color: var(--lightblack);
+    color: var(--lightbrown);
+    padding: 0.5rem 2rem !important;
+    border-radius: 5px;
+    border: none;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+
+/* have a question is End */
+
+
+
+/* why choose is end */
+
+
+/* swiper js blog is start */
+
+
+.mainswiperdiv {
+    margin-inline: 5rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.swiper {
+    width: 100% !important;
+    height: 100% !important;
+
+}
+
+.swiper-wrapper {
+
+    gap: 2rem;
+
+
+}
+
+
+.swipercard {
+    border: 1px solid black;
+    border-radius: 6px;
+    background: #121518;
+    display: flex;
+    gap: 2rem;
+    padding-inline: 1rem !important;
+    height: 195px;
+}
+
+
+
+.clientinsidetheppic img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 1rem;
+    margin-top: 30px !important;
+}
+
+
+.clietntext {
+    padding-block: 2rem !important;
+}
+
+.clietntext h2 {
+    color: var(--lightbrown);
+    text-align: left;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.clietntext p {
+    color: #747474;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 1rem !important;
+}
+
+.swiper-slide {
+    /* border: 2px solid red; */
+    height: 200px !important;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    cursor: pointer;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* swiper js blog is end */
+
+
+
+
+
+
+
+/* media queries */
+
+@media screen and (max-width:770px) {
+    .aboutlinepic img {
+        height: 100px;
+        object-fit: cover;
+        width: 400px;
+        border: 2px solid red;
+        display: none;
+    }
+
+    .aboutpicdiv img {
+        height: 328px;
+        width: 276px;
+    }
+
+    .aboutlinepic {
+        padding-inline: 3rem !important;
+    }
+
+    .line2div {
+        display: none;
+    }
+
+    .line3div {
+        display: none;
+    }
+
+}

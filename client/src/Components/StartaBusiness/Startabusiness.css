@@ -1,0 +1,76 @@
+
+
+.businesstext{
+    padding-inline: 2rem !important;
+    padding-top: 3rem !important;
+    padding-right: 10rem !important;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.businesstext h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.businesstext p{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 1rem !important;
+}
+
+.businesssvgdiv img{
+    width: 500px;
+}
+
+
+.businessdiv{
+    text-align: center;
+}
+
+.businessdiv h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.businessdiv p{
+    padding-top: 1rem !important;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    width: 30% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border: 1px solid blue; */
+  }
+  
+
+.businesssidediv{
+    text-align: center;
+    padding-inline: 3rem !important;
+}
+  .businesssidediv img{
+    width: 90px;
+  }
+
+
+  .businesssidediv p{
+    font-size: 16px;
+  }

@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* overflow: hidden; */
+}
+
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px !important;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    /* overflow: hidden; */
+}
+
+a{
+    text-decoration: none;
+    color: #AA9166;
+}
+
+.logo img{
+width: 50px;
+height: 50px;
+}
+
+.listitems{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #AA9166;
+}
+
+.logoutbut{
+    background: #AA9166;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.tooglebut{
+    display: none;
+}
+
+@media(max-width:768px){
+    .tooglebut{
+        display: block;
+        color: white;
+        z-index: 6;
+        transform: rotate(90deg);
+    }
+    .listitems{
+        list-style: none;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        color: #AA9166;
+        width: 40%;
+        transition: 1s;
+        height: 100vh;
+        background-color: black;
+        /* position: absolute; */
+        position: fixed;
+        top: 0px;
+        right: -40%;
+        z-index: 5;
+    }
+
+    .listitems2{
+        list-style: none;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        color: #AA9166;
+        width: 40%;
+        transition: 1s;
+        height: 100vh;
+        background-color: black;
+        /* position: absolute; */
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        z-index: 5;
+    }
+
+}

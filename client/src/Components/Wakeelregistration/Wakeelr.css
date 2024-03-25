@@ -1,0 +1,111 @@
+.wakeelrmain{
+display: flex;
+height: 110vh;
+}
+.wakeelrleft{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+/* oko */
+}
+.wakeelrleft img{
+width: 75%;
+height: 90vh;
+}
+.wakeelrright{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wakelrform{
+    border-radius: 23.659px;
+    border: 0.946px solid #A0A0A0;
+    background: #FFF;
+    width: 80%;
+    /* height: 105vh; */
+    padding: 10px 20px !important;
+}
+.layerr{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Quicksand;
+}
+.fordis2{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+.fordis2 svg{
+    position: absolute;
+    top: 60%;
+    right: 3%;
+}
+.fordis2 div:nth-child(1), .fordis2 div:nth-child(2){
+    width: 50%;
+}
+.fordis2 label{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Quicksand;
+    color: black;
+    /* padding-bottom: 5px !important; */
+}
+.fordis2 input{
+    width: 100%;
+    height: 40px;
+    border-radius: 7.139px;
+border: 1.19px solid #A0A0A0;
+background: #FFF;
+outline: none;
+text-indent: 10px;
+font-size: 14px;
+font-weight: 450;
+}
+
+.fordis2file{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+.fordis2file label{
+    font-size: 14px;
+    font-weight: 500;
+}
+.fordis2file div:nth-child(1), .fordis2file div:nth-child(2){
+    width: 50%;
+}
+.paddpr{
+    padding: 10px 0px !important;
+}
+.paddal{
+    padding-top: 5px !important;
+}
+
+@media(max-width:1024px){
+    .wakeelrmain{
+        height: 130vh;
+    }
+    .wakelrform{
+        /* height: 126vh; */
+    }
+}
+
+@media(max-width:768px){
+.wakeelrleft{
+    display: none;
+}
+.wakeelrright{
+    width: 100%;
+}
+.wakelrform{
+    width: 90%;
+}
+.fordis2file input{
+    width: 100px;
+}
+}
