@@ -60,6 +60,11 @@ flex: 1;
     color: white;
 }
 
+@media(max-width:768px){
+.footermain{
+    padding: 0px !important;
+}
+}
 @media(max-width:430px){
     .footermain{
         padding: 30px 26px !important;

@@ -24,3 +24,10 @@
     width: 500px;
     padding-top: 5rem !important;
 }
+
+
+@media(max-width:768px) {
+    .commingsoondiv{
+        width: 100% !important;
+    }
+}

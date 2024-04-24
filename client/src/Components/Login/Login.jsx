@@ -18,7 +18,8 @@ export default function Login() {
   
     axios.post('http://localhost:8000/user/login', { email, password })
       .then((res) => {
-        console.log('Response data:', res);
+        console.log('Response data:', res.data);
+        localStorage.setItem('token', res.data.token)
         // Make a fetch request with credentials included
       })
       .catch((err) => {

@@ -14,7 +14,7 @@ app.use(cors({ origin: 'http://localhost:3000' }));
 app.use(cookieParser());
 app.use(bodyParser.json({ limit: '10mb' }));
 connectToMongoDB('mongodb://127.0.0.1:27017/client').then(() => {
-  console.log('connected ')
+  console.log(' connected ')
 }).catch(err => {
   console.log('err', err)})
 app.use(express.json());
