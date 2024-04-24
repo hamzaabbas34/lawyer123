@@ -1,7 +1,6 @@
 import React from 'react'
 import './Media.css'
 
-import commingsoon from '../../Assets/Img/comingsoon.png'
 import wakeelapka from '../../Assets/Img/wakeelapka.png'
 
 import Navbar from '../Navbar/Navbar'

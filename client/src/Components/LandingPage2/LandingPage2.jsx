@@ -94,7 +94,6 @@ export default function LandingPage2() {
 
             <Container fluid>
                 <Row>
-
                     <div className='howdoesmaindiv'>
                         <Col lg={4} md={6} xs={12}>
                             <img id='howdoespic' src={howpic1} alt="" />

@@ -105,7 +105,7 @@
 .button button {
     border-radius: 3.57px;
     background: #AA9166;
-    width: 80%;
+    width: 120%;
     height: 35px;
     border: none;
     color: #FFF;
@@ -128,6 +128,20 @@ font-weight: 600;
 }
 
 @media(max-width:1024px) {
+    .fordis{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 15px;
+    }
+    .fordis .w1024{
+        width: 100% !important;
+
+    }
+    .fordis svg{
+        position: absolute;
+        top: 82%;
+        right: 3%;
+    }
     .registermain {
         height: 91vh;
     }

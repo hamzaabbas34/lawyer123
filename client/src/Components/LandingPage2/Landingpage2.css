@@ -131,7 +131,6 @@
 }
 
 .howdoesmaindiv {
-    margin-inline: 4rem !important;
     display: flex;
     justify-content: center;
 
@@ -258,6 +257,12 @@ body {
 
 .videodiv {
     margin-top: 2rem !important;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.videodiv img{
+    width: 80%;
 }
 
 .textpic {

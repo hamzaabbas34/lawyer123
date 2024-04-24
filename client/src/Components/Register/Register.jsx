@@ -58,36 +58,36 @@ function Register() {
                   <div className='wakeelr'>wakeelApka.pk <span>Register</span></div>
 
                <div className='fordis' >
-                     <div>
+                     <div className='w1024'>
                         <label htmlFor="">Name</label><br />
                         <input type="text" placeholder='Enter Name'name='name' onChange={handleInput}/><br />
                      </div>
 
-                     <div>
+                     <div className='w1024'>
                         <label htmlFor="">Email Address</label><br />
                         <input type="email" placeholder='Email Address' name='email'  onChange={handleInput}/><br />
                      </div>
                   </div>
 
                   <div className='fordis'>
-                     <div>
+                     <div className='w1024'>
                         <label htmlFor="">Phone Number</label><br />
                         <input type="text" placeholder='03249518191'  name='phoneNumber'  onChange={handleInput} /><br />
                      </div>
 
-                     <div>
+                     <div className='w1024'>
                         <label htmlFor="">State</label><br />
                         <input type="text" placeholder='Select State' name='state'  onChange={handleInput}/><br />
                      </div>
                   </div>
 
                   <div className='fordis'>
-                     <div>
+                     <div className='w1024'> 
                         <label htmlFor="">City</label><br />
                         <input type="text" placeholder='Select State' name='city' onChange={handleInput}/><br />
                      </div>
 
-                     <div>
+                     <div className='w1024'>
                         <label htmlFor="">Password</label><br />
                         <input type={showpasward ? "text" : "password"} name='password' placeholder='Enter Password'  onChange={handleInput
                         } /><br />
@@ -104,8 +104,8 @@ function Register() {
                <button type="submit" onClick={handleSubmitData}>Create Account</button>
             </Link></div>
 
-            </form>
                   <div className='already'> Already have an account? <span><NavLink to='/'>Login</NavLink></span></div>
+            </form>
 
 
             </div>

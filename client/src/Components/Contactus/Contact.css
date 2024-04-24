@@ -99,7 +99,23 @@ padding: 10px 0px !important;
     height: 73vh;
     padding: 10px !important;
     }
-
+    .maproute {
+        width: 90%;
+        height: 50vh;
+    }
+    .conttop {
+        display: flex;
+        height: 70vh;
+    }
+    .contform {
+        width: 90%;
+    height: 55vh;
+    padding: 10px !important;
+    }
+    .topright img{
+        width: 96%;
+        height: auto;
+        }
 }
 
 @media(max-width:430px){

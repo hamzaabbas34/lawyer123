@@ -51,7 +51,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className='logii'>
       <Navbar />
       <div className="loginmain">
         <div className="loginleft">
@@ -77,6 +77,7 @@ export default function Login() {
               placeholder="Enter Password"
               value={password}
               onChange={handleChangePassword}
+              className='relative-class'
             /><br />
 
             <svg onClick={showPasswordHandler} xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 28 19" fill="none">

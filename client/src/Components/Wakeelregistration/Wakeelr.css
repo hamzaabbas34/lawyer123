@@ -90,9 +90,7 @@ font-weight: 450;
     .wakeelrmain{
         height: 130vh;
     }
-    .wakelrform{
-        /* height: 126vh; */
-    }
+
 }
 
 @media(max-width:768px){

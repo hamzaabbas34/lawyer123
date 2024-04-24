@@ -11,7 +11,7 @@ import blog4 from '../../Assets/Img/blog4.png'
 
 export default function Blog() {
     return (
-        <div>
+        <div className='bl'>
             <Navbar />
 
 

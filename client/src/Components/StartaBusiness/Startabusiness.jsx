@@ -31,7 +31,7 @@ export default function Startabusiness() {
             <Container fluid>
                 <Row>
 
-                    <Col md={7} xs={12}>
+                    <Col xl={7} md={12} >
 
                         <div className='businesstext'>
                             <h2>What is an NGO and Hoe to SET IT UP!</h2>
@@ -108,9 +108,6 @@ export default function Startabusiness() {
             </div>
 
             <Swiper
-                scrollbar={{
-                    hide: true,
-                }}
                 modules={[Scrollbar]}
                 className="mySwiper"
             >
@@ -145,11 +142,6 @@ export default function Startabusiness() {
 
                 <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
             </Swiper>
 
             <Footer />

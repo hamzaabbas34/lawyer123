@@ -42,3 +42,22 @@
     }
     
 }
+@media screen and (max-width:768px) {
+    .utubevideo img {
+        width: 700px;
+        height: 500px;
+    }
+    .aboutusdiv img {
+        width: 350px;
+        height: 200px;
+    }
+    .aboutusmainsecdiv {
+         background: inherit;
+         
+        padding-top: 2rem !important;
+        margin-block: 5rem !important;
+    }
+    .row{
+        gap: 2rem;
+    }
+}

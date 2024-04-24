@@ -31,3 +31,11 @@
         width: 100% !important;
     }
 }
+@media(max-width:425px) {
+    .commingsoondiv img{
+        width: 350px;   
+    }
+    .commingsoondiv{
+        height: auto;
+    }
+}
