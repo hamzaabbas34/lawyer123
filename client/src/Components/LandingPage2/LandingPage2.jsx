@@ -92,7 +92,7 @@ export default function LandingPage2() {
             </div>
 
 
-            <Container fluid>
+            {/* <Container fluid>
                 <Row>
                     <div className='howdoesmaindiv'>
                         <Col lg={4} md={6} xs={12}>
@@ -112,7 +112,14 @@ export default function LandingPage2() {
 
                 </Row>
 
-            </Container>
+            </Container> */}
+            <div className="howpic-p">
+                <div className="howpic-c">
+                    <div className=""><img src={howpic1} alt="" /></div>
+                    <div className=""><img  src={howpic2} alt="" /></div>
+                    <div className=""><img  src={howpic3} alt="" /></div>
+                </div>
+            </div>
 
             <Container fluid>
                 <Row>
@@ -147,7 +154,7 @@ export default function LandingPage2() {
             </div>
 
 
-            <Container fluid>
+            {/* <Container fluid>
                 <Row>
 
                     <div className='howdoesmaindiv'>
@@ -177,9 +184,9 @@ export default function LandingPage2() {
 
                 </Row>
 
-            </Container>
+            </Container> */}
 
-            <br /><br />
+            {/* <br /><br />
             <Container fluid>
                 <Row>
 
@@ -210,7 +217,7 @@ export default function LandingPage2() {
 
                 </Row>
 
-            </Container>
+            </Container> */}
 
             <div className="wakeelsmaindiv">
                 <h2>Askwakeel Lawyers</h2>
@@ -292,7 +299,7 @@ export default function LandingPage2() {
             </div>
 
             <div className='textpic'>
-                <img className='textpic' src={textpic} alt="" />
+                <img className='' src={textpic} alt="" />
             </div>
 
             <br />

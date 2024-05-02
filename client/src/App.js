@@ -17,6 +17,7 @@ import Blog from './Components/Blog/Blog';
 import Startabusiness from './Components/StartaBusiness/Startabusiness';
 import LandingPage2 from './Components/LandingPage2/LandingPage2';
 import Lawyer from './Components/Lawyerprofile/Lawyer';
+import Chat from './Components/chat/Chat';
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
         <Route path='/startabusiness' element={<Startabusiness/>} />
         <Route path='/landingpage2' element={<LandingPage2/>} />
         <Route path='/lawyer' element={<Lawyer/>} />
+        <Route path='/chat' element={<Chat/>} />
       </Routes>
     </Router>
 

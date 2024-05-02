@@ -267,6 +267,40 @@ body {
 
 .textpic {
     text-align: center;
-    width: 800px;
+    width: 100%;
     margin: 0 auto !important;
+}
+.textpic img{
+    width: 90%;
+}
+.howpic-p{
+width: 100%;
+height: auto;
+
+box-sizing: border-box;
+}
+.howpic-c{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 1rem 5rem !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:1024px) {
+    .howpic-c{
+        padding: 1rem 2rem !important;
+    }
+    .howpic-c img{
+        width: 230px;
+    }
+}
+@media screen and (max-width:768){
+    .howpic-c img{
+        width: 100px !;
+    }
+    .howpic-c{
+        padding: 1rem 1rem !important;
+    }
 }

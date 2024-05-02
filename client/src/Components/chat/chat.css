@@ -1,0 +1,124 @@
+.user-name{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-name h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.user-name-from{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.fo{
+    display: flex;
+    gap: .6rem;
+    flex-direction: column;
+}
+.fo input{
+width: 500px;
+padding: 10px 5px !important;
+}
+.user-name-from button {
+    margin-top: 1rem !important;
+    width: 500px;
+    display: flex;
+    height: 50px !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px !important;
+}
+.user-name-from label {
+    font-size: 1.1rem;
+}
+
+.chating-app{
+    width: 100%;
+    height: 100vh;
+    padding: 0px 30rem !important;
+}
+.chating-app .chating{
+    border: 1px solid red;
+    position: relative;
+    height: 100%;
+}
+
+.chating header{
+    width: 100%;
+    position: absolute;
+    top:50px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.chating footer{
+    width: 100%;
+    position: absolute;
+    bottom:5px;
+    left: 0px;
+}
+.chating footer input{
+    position: relative;
+width: 100%;
+height: 60px;
+}
+.chating footer button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 60px;
+    width: 100px;
+}
+
+.chating {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .message-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sent {
+    display: flex;
+    background-color: #DCF8C6;
+    align-self: flex-end;
+    border-radius: 10px !important;
+    padding: 8px 12px !important;
+    justify-content: flex-end;
+    margin: 4px;
+  }
+  
+  .received {
+    background-color: #ECEFF1;
+    align-self: flex-start;
+    border-radius: 10px;
+    padding: 8px 12px !important;
+    margin: 4px !important;
+  }
+  .author{
+    font-size: .6rem !important;
+    margin-top: .7rem !important;
+  }
+  
+  /* Any other relevant styles */
+  
+  .uldiv{
+    width: 100%;
+    margin-top: 10rem !important;
+  }
